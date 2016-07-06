@@ -21,3 +21,14 @@ app.get('/posts/:slug', staticContent.middleware());
 app.listen(9999, () => {
 	console.log('running on port 9090');
 });
+
+setTimeout(() => {
+
+	staticContent.listPosts()
+	.then(() => {
+
+	})
+	.catch((err) => {
+		console.log(err);
+	});
+}, 1000);
