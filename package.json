@@ -1,0 +1,21 @@
+{
+  "name": "express-static-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "ioredis": "^2.2.0",
+    "lodash": "^4.13.1",
+    "marked": "^0.3.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
