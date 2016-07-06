@@ -25,8 +25,8 @@ app.listen(9999, () => {
 setTimeout(() => {
 
 	staticContent.listPosts()
-	.then(() => {
-
+	.then((posts) => {
+		console.log(posts);
 	})
 	.catch((err) => {
 		console.log(err);
