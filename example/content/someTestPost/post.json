@@ -2,7 +2,7 @@
   "title": "Some test title",
   "slug": "some-test-title",
   "author": "Sean McGary",
-  "published": true,
+  "status": "published",
   "datePublished": "2016-07-06T01:50:52.581Z",
   "contentType": "markdown",
   "contentName": "postContent.mkdn"
